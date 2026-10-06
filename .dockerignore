@@ -1,0 +1,45 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Git
+.git/
+.github/
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit frontend - DO NOT INCLUDE
+streamlit/
+
+# Dataset / data files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Jupyter notebooks
+*.ipynb
+
+# Training / EDA files
+notebooks/
+analysis and model training/
+
+# Test files
+schema/test_*.py
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
